@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PanpanHome</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" href="css/smoothness/jquery.ui.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+<div id="head">
+	<div class="loading2"></div>
+	<div class="logo">
+	<img src="img/logo.png"></span>
+	<h1>PanPan之家</h1>
+	</div>
+	<!--
+	<div class="btn1">
+		<input type="button" class="searBtn"value="换色">
+		<input type="button" class="quesBtn"value="提问">
+	</div>
+	<div class="button">
+		<input type="button" value="登录">
+		<input type="button" value="注册">
+		<p>欢迎,<span>用户名</span></p>
+		<input type="button" value="退出">
+	</div>
+	-->
+	<ul id="nav">
+		<li class="item"><a href="javascript:;"><i class="ico ico6"></i>游戏</a></li>
+		<li class="item"><a href="javascript:;"><i class="ico ico2"></i>换肤</a></li>
+		<li class="item"><a href="javascript:;"><i class="ico ico3"></i>知问</a></li>
+		<li class="item"><a href="javascript:;"><i class="ico ico4"></i>登录/注册</a></li>
+		<li class="item"><a href="javascript:;"><i class="ico ico5"></i>欢迎用户</a></li>
+	</ul>
+	<form id="reg" title="会员注册" class="none">
+			<input type="text" name="user" class="text"placeholder=" 账号"/>
+			<input type="password" name="pass"placeholder=" 密码"/>
+			<input type="text" name="email" placeholder="邮箱"/>
+			<a href="javascript:;" class="login">返回登录</a>
+			<input type="submit" value="注册"id="submit1"/>
+	</form>
+	<form id="login" class="none">
+		<input type="text" name="user" class="text"placeholder=" 账号"/>
+		<input type="password" name="pass"placeholder=" 密码"/>
+		<a href="javascript:;" class="reg">注册新账号</a>
+		<input type="submit"id="loginsubmit" value="登录">
+	</form>
+	
+</div>
+<div class="question none">
+		<div class="close1">
+			<img src="img/close3.png">
+		</div>
+		<form id="question">
+			<p>
+				<label for="title">问题名称</label>
+				<input type="text" name="title"/>
+			</p>
+			<p>
+				<textarea class="content" name="content" placeholder="请输入问题描述！----上传图片小于1M！"></textarea>
+			</p>
+			<label class="pic"><input type="file" class="none"/></label>
+			<input type="submit" class="questionsub"value="提交问题">
+			
+		</form>
+</div>
+<div id="loading" class="none">数据交互中
+</div>
+<div id="page2" >
+	
+	<div id="content">
+	</div>
+	<div id="side">
+		<div  class="side2 side21">
+			<h4>最新话题</h4>
+			<div class="content">
+				<ul>
+					<li><strong>1</strong><a>root1</a><span>200</span></li>
+					<li><strong>1</strong><a>root1</a><span>200</span></li>
+					<li><strong>1</strong><a>root1</a><span>200</span></li>
+				</ul>
+			</div>
+		</div>
+		<div  class="side2 side22">
+			<h4>评论排行</h4>
+			<div class="content">
+				<ul>
+					<li><strong>1</strong><a>root1</a><span>200</span></li>
+					<li><strong>1</strong><a>root1</a><span>200</span></li>
+					<li><strong>1</strong><a>root1</a><span>200</span></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<div class="returnUp none">
+<i class="caret"></i>
+</div>
+<div class="canvas">
+	<canvas width="1300px"height="600px" id="canvas">
+	</canvas>
+</div>
+<div class="controllbg">
+		<input type="button"  class="bgpause"value="background pause"/>
+		<input type="button"  class="bgplay"value="background play"/>
+</div>
+<div class="music">
+	<div class="pic">
+		<div class="circle"></div>
+		<div class="circle2"></div>
+		<img class="active" src="img/work3.png"/>
+	</div>
+	<div class="text">
+		<p>十分温暖春意荡漾的早晨</p>
+	</div>
+	<audio controls="controls" id="music1">
+		<source src="img/music1.mp3" type="audio/mpeg">
+		Your browser does not support the audio tag.
+	</audio>
+	<div class="caret">
+	</div>
+</div>
+<!--
+
+-->
+<div id="page3" class="none" >
+	<div class="canvas2">
+		<p class="score">得分为：<span>0</span>分</p>
+		<input type="button"  class="pause"value="pause"/>
+		<input type="button"  class="play"value="play"/>
+		<input type="button"  class="restart"value="restart"  style="display:none"/>
+		<img src="img/person.png" style="display:none"/>
+		<img src="img/person2.png" style="display:none"/>
+		<canvas id="c1" width="600px"height="500px">
+	</div>
+	<div  class="side1">
+		<h4>游戏排行</h4>
+		<div class="content">
+		<ul>
+			<li><i></i><strong>1</strong><a>root1</a><span>200</span></li>
+		</ul>
+		</div>
+	</div>
+
+	
+</div>
+<div class="footer">
+	<a href="">Copyright © 2016 Xpanapn. All Rights Reserved.</a><br>
+	<a href=""> ©www.xpanpan.com版权所有</a>
+</div>
+
+
+
+</body>
+</html>
