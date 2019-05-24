@@ -1323,8 +1323,6 @@ $(function(){
 		})();
 		//初始化height。opacity等
 		(function(){
-			$("#work").height($(window).height());
-			$("#self").height($(window).height());
 			$(".animate").css("top","0px");
 			$(".animate").eq(1).css("opacity",1);
 			

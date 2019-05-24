@@ -1,3 +1,6 @@
+html,body{
+	height: 100%;
+}
 body,ul{
 	margin: 0;
 
@@ -168,7 +171,7 @@ background-position: -587px -803px;animation:5s move1 linear infinite;transition
 .hide .bottom .fan1 img,.hide .bottom .fan2,.hide .bottom .fan3,.hide .bottom .fan4,.hide .bottom .fan5,.hide .bottom .fan6,.hide .bottom .fan7,.hide .bottom .fan8,.hide .bottom .canvas3,.hide .bottom .canvas4 canvas{transform:scale(0);}
 .show .bottom{animation: 0.5s showBottom linear;transform:translateZ(-180px)}
 .hide .bottom{animation: 0.5s hideBottom linear;transform:translateZ(0px)}
-#work{position:relative;width:100%;background:url(../img/bg2.jpg) no-repeat center bottom;position:absolute;top:0;transition:1s;}
+#work{position:relative;width:100%;height: 100%;min-height: 750px;background:url(../img/bg2.jpg) no-repeat center bottom;position:absolute;top:0;transition:1s;}
 #work.show{display:block;opacity:1;transform:scale(1);}
 #work.hide{display:none;opacity:0;transform:scale(2);}
 #work .bg2{width:100%;position:absolute;bottom:0px;}
@@ -222,7 +225,7 @@ background-position: -587px -803px;animation:5s move1 linear infinite;transition
 #work .bottom .light2{width:570px;height:230px;opacity:0;transition:0.3s;}
 
 
-#self{width:100%;background:url(../img/bg3.jpg) no-repeat center center;position:absolute;top:0;left:0;}
+#self{width:100%;height: 100%;background:url(../img/bg3.jpg) no-repeat center center ;background-size: cover;position:absolute;top:0;left:0;}
 #self .wrap1{width:558px;height:262px;position:relative;top:100px;margin:0 auto;}
 #self .wrap1 .pic{width:558px;height:242px;position:absolute;top:10px;display:none;}
 #self .wrap1 .caret{position:absolute;}
