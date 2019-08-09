@@ -451,8 +451,8 @@ $(function(){
 				
 				$.each($("#content .content1"),function(index,value){ //每个问题下面的额按钮点击
 					arr[index]=$(value).height();
-					if($(value).height()>29){
-						$(value).height(29);
+					if($(value).height()> 34){
+						$(value).height(34);
 						$("#content .up").eq(index).hide();
 					}else{
 						$("#content .up").eq(index).hide();
@@ -477,7 +477,7 @@ $(function(){
 					});
 					$("#content .up").eq(index).click(function(){//收起
 						$(this).hide();
-						$(value).height(29);
+						$(value).height(34);
 						$("#content .down").eq(index).show();
 					});
 					$("#content .comment").eq(index).click(function(){//0条评论，点击
