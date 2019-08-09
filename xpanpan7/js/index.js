@@ -477,7 +477,7 @@ $(function(){
 					});
 					$("#content .up").eq(index).click(function(){//收起
 						$(this).hide();
-						$(value).height(99);
+						$(value).height(29);
 						$("#content .down").eq(index).show();
 					});
 					$("#content .comment").eq(index).click(function(){//0条评论，点击
