@@ -55,7 +55,7 @@ body{font-family:"微软雅黑","黑体";background:radial-gradient( circle at 7
 #page2{position:relative;width:950px;margin:50px auto;clear:both;}
 #page2 #side{position:absolute;width:290px;height:900px;top:10px;right:0;}
 #page2 #side .side2{margin-bottom:10px;}
-#page2 #side .side2 h4{background:#fff;color:#65aefa;font-size:16px;padding:10px 20px;opacity:0.8;}
+#page2 #side .side2 h4{background:rgba(255,255,255,0.5);color:#65aefa;font-size:16px;padding:10px 20px;opacity:0.8;}
 #page2 #side .side2 .content{background:rgba(255,255,255,0.1);font-size:14px;padding:10px 0px;}
 #page2 #side .side2 .content li{margin:2px 0;height:25px;line-height:25px;padding-left:10px;}
 #page2 #side .side2 .content li:hover{background:rgba(20,86,153,0.1);}
