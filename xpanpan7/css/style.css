@@ -57,9 +57,9 @@ body{font-family:"微软雅黑","黑体";background:radial-gradient( circle at 7
 #page2 #side .side2{margin-bottom:10px;}
 #page2 #side .side2 h4{background:rgba(255,255,255,0.5);color:#65aefa;font-size:16px;padding:10px 20px;opacity:0.8;}
 #page2 #side .side2 .content{background:rgba(255,255,255,0.1);font-size:14px;padding:10px 0px;}
-#page2 #side .side2 .content:hover{background:rgba(255,255,255,0.5);font-size:14px;padding:10px 0px;}
+#page2 #side .side2 .content:hover{background:rgba(255,255,255,0.2);font-size:14px;padding:10px 0px;}
 #page2 #side .side2 .content li{margin:2px 0;height:25px;line-height:25px;padding-left:10px;}
-#page2 #side .side2 .content li:hover{background:rgba(255,255,255,0.5);}
+#page2 #side .side2 .content li:hover{background:rgba(255,255,255,0.3);}
 #page2 #side .side2 .content li strong{padding-right:15px;color:#e3007b;display:inline-block;height:25px;float:left;width:20px;}
 #page2 #side .side2 .content li span{color:#65aefa;display:inline-block;height:25px;float:left;width:70px;}
 #page2 #side .side2 .content li a{width:155px;overflow:hidden;display:inline-block;height:25px;float:left;color:#57fb86;}
@@ -83,11 +83,11 @@ body{font-family:"微软雅黑","黑体";background:radial-gradient( circle at 7
 #content .item .itemhead{width:100%;position:relative;}
 #content .item .itemhead img{height:60px;height:60px;border:1px solid #EEE;border-radius:2px;}
 #content .item .itemhead .text{position:absolute;top:0;left:75px;line-height:26px;}
-#content .item:hover{background:rgba(255,255,255,0.5);}
+#content .item:hover{background:rgba(255,255,255,0.2);}
 #content .item .addpic{width:100%;}
 #content .item .addpic img{max-width:500px;padding:5px 5px 5px 0;max-height:200px;}
 #content h4 {width:100%;padding:5px 0;font-size:14px;cursor:pointer;color:#57fb86;}
-#content span{color:#999;}
+#content span{color:rgb(250, 140, 15);}
 #content h3{width:100%;padding:5px 0;font-size:16px;color:#05cec5;cursor:pointer;}
 #content .bottom{padding-top:5px;}
 #content .bottom span{padding:0 5px;color:orange;cursor:pointer;float:right;}
