@@ -451,8 +451,8 @@ $(function(){
 				
 				$.each($("#content .content1"),function(index,value){ //每个问题下面的额按钮点击
 					arr[index]=$(value).height();
-					if($(value).height()>99){
-						$(value).height(99);
+					if($(value).height()>29){
+						$(value).height(29);
 						$("#content .up").eq(index).hide();
 					}else{
 						$("#content .up").eq(index).hide();
