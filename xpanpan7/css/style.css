@@ -77,12 +77,12 @@ body{font-family:"微软雅黑","黑体";background:radial-gradient( circle at 7
 
 #content{width:600px;color:#666;font-size:12px;position:relative;top:10px;left:0px;z-index:1;}
 
-#content .item{clear:both;margin:10px 0;padding:20px;background:rgba(255,255,255,0.6);}
+#content .item{clear:both;margin:10px 0;padding:20px;background:rgba(255,255,255,0.3);}
 #content .item:nth-of-type(even){background:rgba(255,255,255,0.6)}
 #content .item .itemhead{width:100%;position:relative;}
 #content .item .itemhead img{height:60px;height:60px;border:1px solid #EEE;border-radius:2px;}
 #content .item .itemhead .text{position:absolute;top:0;left:75px;line-height:26px;}
-#content .item:hover{background:rgba(255,255,255,0.8);}
+#content .item:hover{background:rgba(255,255,255,0.5);}
 #content .item .addpic{width:100%;}
 #content .item .addpic img{max-width:500px;padding:5px 5px 5px 0;max-height:200px;}
 #content h4 {width:100%;padding:5px 0;font-size:14px;cursor:pointer;color:#666;}
