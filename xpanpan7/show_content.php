@@ -1,6 +1,6 @@
 <?php
 	require"config.php";
-	$query=mysql_query("select(select count(*) from comment where questionid=a.id) AS count,(select id from user where user=a.user) as userid,a.id,a.user,a.title,a.content,a.date,a.picname from question a order by a.date DESC ") or die("wrong22");
+	$query=mysqli_real_query("select(select count(*) from comment where questionid=a.id) AS count,(select id from user where user=a.user) as userid,a.id,a.user,a.title,a.content,a.date,a.picname from question a order by a.date DESC ") or die("wrong22");
 	$i=0;
 	$json='';
 	while(!!$row=mysql_fetch_array($query,MYSQL_ASSOC)){
